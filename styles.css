@@ -1,0 +1,24 @@
+body {
+    background-color: grey;
+}
+div {
+    margin: auto;
+    border: 2px solid black;
+    width: 300px;
+    text-align: center;
+    border-radius: 20px;
+}
+h1 {
+    color: white;
+}
+p {
+    color: white;
+}
+img {
+    width: 250px;
+    border-radius: 50%;
+}
+img:hover {
+  transform: rotate(100000deg);
+  transition-duration: 1000000ms;
+}
